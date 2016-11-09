@@ -9,9 +9,5 @@ run:
 	./run_signals
 
 git:
-	rm run_signals
 	git add --all
 	git commit -m "$(MAKE)"
-	git pull
-	git push
-
